@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Health Check
 app.get("/", (req, res) => {
-  res.send("Node CI/CD App Running Successfully 🚀");
+  res.send("Node CI/CD App Running Successfully Build 2 🚀");
 });
 
 // Sample API
